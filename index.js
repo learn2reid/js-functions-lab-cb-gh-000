@@ -1,15 +1,15 @@
-const happyHolidays = () => {
+happyHolidays = () => {
   return "Happy holidays!";
 }
 
-const happyHolidaysTo = (name) => {
+happyHolidaysTo = (name) => {
   return `Happy holidays, ${name}!`;
 }
 
-const happyHolidayTo = (holiday, name) => {
+happyHolidayTo = (holiday, name) => {
   return `Happy ${holiday}, ${name}!`;
 }
 
 holidayCountdown = (holiday, days) => {
-  return `It's ${days} until ${holiday}!`;
+  return `It's ${days} days until ${holiday}!`;
 }
